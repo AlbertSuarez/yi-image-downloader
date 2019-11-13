@@ -1,0 +1,18 @@
+{
+    "name": "yi-image-downloader",
+    "version": "1.0.0",
+    "description": "Image downloader from a Xiaomi Yi Action Camera through Wi-Fi",
+    "repository": "https://github.com/AlbertSuarez/yi-image-downloader",
+    "main": "src.js",
+    "engines": {
+        "node": ">=6.2.0"
+    },
+    "scripts": {
+        "start": "node src.js"
+    },
+    "author": "AlbertSuarez",
+    "license": "MIT",
+    "dependencies": {
+        "yi-action-camera": "^0.1.4"
+    }
+}
